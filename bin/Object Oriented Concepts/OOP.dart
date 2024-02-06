@@ -12,7 +12,7 @@ void main() {
 
 
   ///ClassConstructor Class
-  var constructor = new ClassConstructor("I'm a constructor");
+ var constructor = new ClassConstructor("Nahid Hasan");
 
 
   /// MyClass
