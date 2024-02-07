@@ -28,7 +28,7 @@ void main() {
   /// Son Class
 
   var sonObject = Son();
-  sonObject.addTwoFather();
-  sonObject.multiFather();
-  sonObject.Name();
+  sonObject.SajjadProperty('Sajjad', 'Nandanpour', 24);
+  sonObject.SajjadBalanced(10, 20);
+
 }

@@ -1,13 +1,9 @@
 class Father {
-  void addTwoFather() {
-    print(20 + 30);
+  void SajjadProperty(String name, String village, int Age) {
+    print("My Name Is $name, My Village Is $village, i'm $Age years old");
   }
 
-  void multiFather() {
-    print(20 * 30);
-  }
-
-  void Name() {
-    print('I love Dart');
+  void SajjadBalanced(int homeRate, int Money){
+    print(homeRate+Money);
   }
 }
