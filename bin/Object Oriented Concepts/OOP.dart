@@ -1,4 +1,5 @@
 import 'ClassConstructor.dart';
+import 'Inheritance/Son.dart';
 import 'MyClass.dart';
 import 'ThisKeyWord.dart';
 
@@ -23,4 +24,11 @@ void main() {
   print(object.alphabet[1]);
 
   MyClass.addTwoNumber(10, 20);
+
+  /// Son Class
+
+  var sonObject = Son();
+  sonObject.addTwoFather();
+  sonObject.multiFather();
+  sonObject.Name();
 }
