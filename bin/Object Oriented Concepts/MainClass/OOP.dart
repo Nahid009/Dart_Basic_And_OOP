@@ -1,7 +1,9 @@
-import 'ClassConstructor.dart';
-import 'Inheritance/Son.dart';
-import 'MyClass.dart';
-import 'ThisKeyWord.dart';
+import '../Abstruct/AbstructObjectClass.dart';
+import '../ClassConstructor.dart';
+import '../Inheritance/Father.dart';
+import '../Inheritance/Son.dart';
+import '../MyClass.dart';
+import '../ThisKeyWord.dart';
 
 ///Accessing Variable From Class
 
@@ -9,12 +11,10 @@ void main() {
   ///ThisKeyWord Class
   var thisKeyWordObject = new ThisKeyWord();
   thisKeyWordObject.addTwoNumber();
-  thisKeyWordObject.myFunction(); 
-
+  thisKeyWordObject.myFunction();
 
   ///ClassConstructor Class
- var constructor = new ClassConstructor("Nahid Hasan");
-
+  var constructor = new ClassConstructor("Nahid Hasan");
 
   /// MyClass
   var object = new MyClass();
@@ -31,4 +31,9 @@ void main() {
   sonObject.SajjadProperty('Sajjad', 'Nandanpour', 24);
   sonObject.SajjadBalanced(10, 20);
 
+  /// AbstructFatherClass
+
+  var abstructSonObject = new AbstructSonClass();
+  abstructSonObject.SajjadBalanced(10, 20);
+  abstructSonObject.SajjadProperty("Sajjad", "Piyadoho", 25);
 }
